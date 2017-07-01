@@ -21,6 +21,13 @@ Or download and run setup as normal:
     $ unzip notrequests.zip
     $ cd notrequests-master
     $ python setup.py install
+    
+Add `ssl` library to your App Engine app:
+
+    # app.yaml
+    libraries:
+    - name: ssl
+      version: 2.7
 
 
 Usage
